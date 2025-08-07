@@ -87,7 +87,7 @@
   </style>
 </head>
 <body>
-  <h1>Emoji Association Quiz</h1>
+  <h1>not.ESP Quiz</h1>
   <div id="score">Correct: 0 | Wrong: 0 | Total: 0</div>
   <div class="quiz-box">
     <div class="prompt" id="prompt"></div>
@@ -164,7 +164,7 @@
         result.innerHTML = `❌ Wrong! Correct answer was: <strong>${correctAnswer}</strong>`;
       }
       updateScore();
-      setTimeout(generateQuestion, 2000);
+      setTimeout(generateQuestion, 1700);
     }
 
     function toggleMode() {
